@@ -1,5 +1,5 @@
 import pathlib
 
-print(pathlib.Path("hello.md.txt").read.text())
-
+path=pathlib.Path("hello.md.txt")
+print(path.read.text())
 #doing something
